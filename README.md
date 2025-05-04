@@ -58,8 +58,7 @@ Data is derived from **NASA LRO-LOLA (Lunar Orbiter Laser Altimeter)** and made 
 - Generate a **hazard map** (binary mask)
 - Use it to block unsafe terrain from path planning
 
-![image](https://github.com/user-attachments/assets/a96863e6-4ea4-40ed-94bd-87f9c210be22)
-
+![image](https://github.com/user-attachments/assets/88aadec0-3191-47a4-9613-3b604eb962e0)
 
 ### C. Hazard-Aware Path Planning
 - For the best landing site:
