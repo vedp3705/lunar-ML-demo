@@ -46,11 +46,20 @@ Data is derived from **NASA LRO-LOLA (Lunar Orbiter Laser Altimeter)** and made 
   - Proximity to ROIs
 - Output: Suitability heatmap, top 5 landing candidates
 
+![image](https://github.com/user-attachments/assets/67049598-44b2-4f36-b3f0-bb518f92dd01)
+![image](https://github.com/user-attachments/assets/cf40a10d-4304-442c-9bb9-fb18db76c177)
+![image](https://github.com/user-attachments/assets/59614ffa-09cb-4d05-8e33-86792ffa61ee)
+
+
+
 ### B. Hazard Detection
 - Define hazardous areas as terrain where slope > 40°
 - **NOTE:** Ideal hazarous slope conditions to identify are usually 12-15° however this specific landing site seemed to lack any slopes thus the margin had be significantly dropped to be less strict
 - Generate a **hazard map** (binary mask)
 - Use it to block unsafe terrain from path planning
+
+![image](https://github.com/user-attachments/assets/a96863e6-4ea4-40ed-94bd-87f9c210be22)
+
 
 ### C. Hazard-Aware Path Planning
 - For the best landing site:
@@ -58,6 +67,8 @@ Data is derived from **NASA LRO-LOLA (Lunar Orbiter Laser Altimeter)** and made 
   - Use **A\* search** on a slope-safe graph
   - Reject paths that intersect hazardous areas
 - Output: Up to 5 safe, optimal paths
+
+![image](https://github.com/user-attachments/assets/653f9901-059c-4e8b-9eed-d2822c268319)
 
 ### D. Visualization
 - Suitability heatmap with ROI polygons
