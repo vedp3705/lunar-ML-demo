@@ -47,7 +47,8 @@ Data is derived from **NASA LRO-LOLA (Lunar Orbiter Laser Altimeter)** and made 
 - Output: Suitability heatmap, top 5 landing candidates
 
 ### B. Hazard Detection
-- Define hazardous areas as terrain where slope > 12–15°
+- Define hazardous areas as terrain where slope > 40°
+- **NOTE:** Ideal hazarous slope conditions to identify are usually 12-15° however this specific landing site seemed to lack any slopes thus the margin had be significantly dropped to be less strict
 - Generate a **hazard map** (binary mask)
 - Use it to block unsafe terrain from path planning
 
@@ -68,7 +69,7 @@ Data is derived from **NASA LRO-LOLA (Lunar Orbiter Laser Altimeter)** and made 
 ## Example Output
 
 - Landing Suitability Map (with top 5 candidates)
-- Binary Hazard Map (slope > 12°)
+- Binary Hazard Map (slope > 40°)
 - Terrain overlay with 5 color-coded paths from landing site to nearest ROIs
 
 ## Conclusions
