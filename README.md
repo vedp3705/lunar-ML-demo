@@ -91,13 +91,13 @@ Data is derived from **NASA LRO-LOLA (Lunar Orbiter Laser Altimeter)** and made 
 
 ---
 
-## 📖 Dataset Description & References
+##  Dataset Description & References
 
 The elevation data is derived from **improved high-resolution LOLA DEMs** (LDEMs) created by Michael Kenneth Barker and colleagues. These DEMs cover several key south polar landing sites (e.g., Site01, Site04, Site07) at a resolution of **5 meters per pixel**. They were generated through self-consistent co-adjustment of LRO-LOLA altimetry tracks to reduce orbital error by more than an order of magnitude (~10–20 cm horizontal, ~2–4 cm vertical). The dataset includes slope, uncertainty, and ROI shapefiles — and is well suited for shadow-independent analysis of topographic and illumination conditions.
 
 These maps have significantly fewer interpolation artifacts and improved geodetic control, making them ideal for hazard-aware landing and mobility simulations.
 
-### 📚 References
+###  References
 
 - Barker, M.K., et al. (2021), *Improved LOLA Elevation Maps for South Pole Landing Sites: Error Estimates and Their Impact on Illumination Conditions*, Planetary & Space Science, 203, 105119. [https://doi.org/10.1016/j.pss.2020.105119](https://doi.org/10.1016/j.pss.2020.105119)
 
